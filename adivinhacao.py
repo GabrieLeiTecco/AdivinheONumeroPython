@@ -49,11 +49,16 @@ for rodada in range(1, 4):
 #     if(acertou):
 #         print("Parabéns! Você acertou!")
 #         rodada = 321345
+#        print("Você acertou na {} rodada".format(rodada))
 #     else:
 #         if(maior):
 #             print("O seu chute foi maior do que o número secreto!")
+#             if(rodada == 3):
+#                 print("O número secreto era {}".format(numero_secreto))
 #         elif(menor):
 #             print("O seu chute foi menor do que o número secreto!")
+#             if(rodada == 3):
+#                 print("O número secreto era {}".format(numero_secreto))
 #
 #     rodada = rodada + 1
 
